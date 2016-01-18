@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF041531C4D39E000A77441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF041521C4D39E000A77441 /* main.m */; };
+		BAF041561C4D39E000A77441 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF041551C4D39E000A77441 /* AppDelegate.m */; };
+		BAF041591C4D39E000A77441 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF041581C4D39E000A77441 /* ViewController.m */; };
+		BAF0415C1C4D39E100A77441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF0415A1C4D39E000A77441 /* Main.storyboard */; };
+		BAF0415E1C4D39E100A77441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF0415D1C4D39E100A77441 /* Assets.xcassets */; };
+		BAF041611C4D39E100A77441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF0415F1C4D39E100A77441 /* LaunchScreen.storyboard */; };
+		BAF0416C1C4D39E100A77441 /* TimeButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF0416B1C4D39E100A77441 /* TimeButtonDemoTests.m */; };
+		BAF041771C4D39E100A77441 /* TimeButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF041761C4D39E100A77441 /* TimeButtonDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAF041681C4D39E100A77441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF041461C4D39E000A77441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF0414D1C4D39E000A77441;
+			remoteInfo = TimeButtonDemo;
+		};
+		BAF041731C4D39E100A77441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF041461C4D39E000A77441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF0414D1C4D39E000A77441;
+			remoteInfo = TimeButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAF0414E1C4D39E000A77441 /* TimeButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF041521C4D39E000A77441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAF041541C4D39E000A77441 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAF041551C4D39E000A77441 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAF041571C4D39E000A77441 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAF041581C4D39E000A77441 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAF0415B1C4D39E000A77441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAF0415D1C4D39E100A77441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAF041601C4D39E100A77441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAF041621C4D39E100A77441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF041671C4D39E100A77441 /* TimeButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF0416B1C4D39E100A77441 /* TimeButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeButtonDemoTests.m; sourceTree = "<group>"; };
+		BAF0416D1C4D39E100A77441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF041721C4D39E100A77441 /* TimeButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF041761C4D39E100A77441 /* TimeButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeButtonDemoUITests.m; sourceTree = "<group>"; };
+		BAF041781C4D39E100A77441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF0414B1C4D39E000A77441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF041641C4D39E100A77441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF0416F1C4D39E100A77441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAF041451C4D39E000A77441 = {
+			isa = PBXGroup;
+			children = (
+				BAF041501C4D39E000A77441 /* TimeButtonDemo */,
+				BAF0416A1C4D39E100A77441 /* TimeButtonDemoTests */,
+				BAF041751C4D39E100A77441 /* TimeButtonDemoUITests */,
+				BAF0414F1C4D39E000A77441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF0414F1C4D39E000A77441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAF0414E1C4D39E000A77441 /* TimeButtonDemo.app */,
+				BAF041671C4D39E100A77441 /* TimeButtonDemoTests.xctest */,
+				BAF041721C4D39E100A77441 /* TimeButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAF041501C4D39E000A77441 /* TimeButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BAF041541C4D39E000A77441 /* AppDelegate.h */,
+				BAF041551C4D39E000A77441 /* AppDelegate.m */,
+				BAF041571C4D39E000A77441 /* ViewController.h */,
+				BAF041581C4D39E000A77441 /* ViewController.m */,
+				BAF0415A1C4D39E000A77441 /* Main.storyboard */,
+				BAF0415D1C4D39E100A77441 /* Assets.xcassets */,
+				BAF0415F1C4D39E100A77441 /* LaunchScreen.storyboard */,
+				BAF041621C4D39E100A77441 /* Info.plist */,
+				BAF041511C4D39E000A77441 /* Supporting Files */,
+			);
+			path = TimeButtonDemo;
+			sourceTree = "<group>";
+		};
+		BAF041511C4D39E000A77441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF041521C4D39E000A77441 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAF0416A1C4D39E100A77441 /* TimeButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF0416B1C4D39E100A77441 /* TimeButtonDemoTests.m */,
+				BAF0416D1C4D39E100A77441 /* Info.plist */,
+			);
+			path = TimeButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		BAF041751C4D39E100A77441 /* TimeButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF041761C4D39E100A77441 /* TimeButtonDemoUITests.m */,
+				BAF041781C4D39E100A77441 /* Info.plist */,
+			);
+			path = TimeButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAF0414D1C4D39E000A77441 /* TimeButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF0417B1C4D39E100A77441 /* Build configuration list for PBXNativeTarget "TimeButtonDemo" */;
+			buildPhases = (
+				BAF0414A1C4D39E000A77441 /* Sources */,
+				BAF0414B1C4D39E000A77441 /* Frameworks */,
+				BAF0414C1C4D39E000A77441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeButtonDemo;
+			productName = TimeButtonDemo;
+			productReference = BAF0414E1C4D39E000A77441 /* TimeButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAF041661C4D39E100A77441 /* TimeButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF0417E1C4D39E100A77441 /* Build configuration list for PBXNativeTarget "TimeButtonDemoTests" */;
+			buildPhases = (
+				BAF041631C4D39E100A77441 /* Sources */,
+				BAF041641C4D39E100A77441 /* Frameworks */,
+				BAF041651C4D39E100A77441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF041691C4D39E100A77441 /* PBXTargetDependency */,
+			);
+			name = TimeButtonDemoTests;
+			productName = TimeButtonDemoTests;
+			productReference = BAF041671C4D39E100A77441 /* TimeButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAF041711C4D39E100A77441 /* TimeButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF041811C4D39E100A77441 /* Build configuration list for PBXNativeTarget "TimeButtonDemoUITests" */;
+			buildPhases = (
+				BAF0416E1C4D39E100A77441 /* Sources */,
+				BAF0416F1C4D39E100A77441 /* Frameworks */,
+				BAF041701C4D39E100A77441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF041741C4D39E100A77441 /* PBXTargetDependency */,
+			);
+			name = TimeButtonDemoUITests;
+			productName = TimeButtonDemoUITests;
+			productReference = BAF041721C4D39E100A77441 /* TimeButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF041461C4D39E000A77441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nemo;
+				TargetAttributes = {
+					BAF0414D1C4D39E000A77441 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BAF041661C4D39E100A77441 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BAF0414D1C4D39E000A77441;
+					};
+					BAF041711C4D39E100A77441 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BAF0414D1C4D39E000A77441;
+					};
+				};
+			};
+			buildConfigurationList = BAF041491C4D39E000A77441 /* Build configuration list for PBXProject "TimeButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAF041451C4D39E000A77441;
+			productRefGroup = BAF0414F1C4D39E000A77441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF0414D1C4D39E000A77441 /* TimeButtonDemo */,
+				BAF041661C4D39E100A77441 /* TimeButtonDemoTests */,
+				BAF041711C4D39E100A77441 /* TimeButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF0414C1C4D39E000A77441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF041611C4D39E100A77441 /* LaunchScreen.storyboard in Resources */,
+				BAF0415E1C4D39E100A77441 /* Assets.xcassets in Resources */,
+				BAF0415C1C4D39E100A77441 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF041651C4D39E100A77441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF041701C4D39E100A77441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF0414A1C4D39E000A77441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF041591C4D39E000A77441 /* ViewController.m in Sources */,
+				BAF041561C4D39E000A77441 /* AppDelegate.m in Sources */,
+				BAF041531C4D39E000A77441 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF041631C4D39E100A77441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF0416C1C4D39E100A77441 /* TimeButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF0416E1C4D39E100A77441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF041771C4D39E100A77441 /* TimeButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAF041691C4D39E100A77441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF0414D1C4D39E000A77441 /* TimeButtonDemo */;
+			targetProxy = BAF041681C4D39E100A77441 /* PBXContainerItemProxy */;
+		};
+		BAF041741C4D39E100A77441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF0414D1C4D39E000A77441 /* TimeButtonDemo */;
+			targetProxy = BAF041731C4D39E100A77441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAF0415A1C4D39E000A77441 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF0415B1C4D39E000A77441 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAF0415F1C4D39E100A77441 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF041601C4D39E100A77441 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAF041791C4D39E100A77441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAF0417A1C4D39E100A77441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF0417C1C4D39E100A77441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nx.TimeButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAF0417D1C4D39E100A77441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nx.TimeButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAF0417F1C4D39E100A77441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nx.TimeButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeButtonDemo.app/TimeButtonDemo";
+			};
+			name = Debug;
+		};
+		BAF041801C4D39E100A77441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nx.TimeButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeButtonDemo.app/TimeButtonDemo";
+			};
+			name = Release;
+		};
+		BAF041821C4D39E100A77441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nx.TimeButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeButtonDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BAF041831C4D39E100A77441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nx.TimeButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeButtonDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAF041491C4D39E000A77441 /* Build configuration list for PBXProject "TimeButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF041791C4D39E100A77441 /* Debug */,
+				BAF0417A1C4D39E100A77441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF0417B1C4D39E100A77441 /* Build configuration list for PBXNativeTarget "TimeButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF0417C1C4D39E100A77441 /* Debug */,
+				BAF0417D1C4D39E100A77441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAF0417E1C4D39E100A77441 /* Build configuration list for PBXNativeTarget "TimeButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF0417F1C4D39E100A77441 /* Debug */,
+				BAF041801C4D39E100A77441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAF041811C4D39E100A77441 /* Build configuration list for PBXNativeTarget "TimeButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF041821C4D39E100A77441 /* Debug */,
+				BAF041831C4D39E100A77441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAF041461C4D39E000A77441 /* Project object */;
+}
